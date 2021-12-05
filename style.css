@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+#canvas{
+    height: 100vh;
+border: 1px solid red;
+}
+.dot{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    /*让它显示在鼠标中间*/
+    margin-left: -3px;
+    margin-top: -3px;
+    border-radius: 50%;
+    background: red;
+}
