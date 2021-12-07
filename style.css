@@ -6,3 +6,18 @@
 #canvas {
   display: block;
 }
+nav{
+  height: 120px;
+  background: rgb(193,193,193);
+  display: flex;
+}
+.tool{
+  border: 1px solid red;
+width: 80px;
+  text-align: center;
+}
+.tool-bottom{
+  border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+}
